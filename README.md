@@ -4,7 +4,7 @@ This repository contains code to automatically extract some simple F0 and intens
 acoustic measures as well as approximate F0 and intensity contours using Legendre 
 polynomial expansion.
 
-##Dependencies:
+## Dependencies:
 ```
 numpy==1.21.3
 pandas==1.4.3
@@ -15,14 +15,14 @@ tgt==1.4.4
 ```
 
 
-##Example Usage:
+## Example Usage:
 ```
 python main.py --data_dir $PATH_TO_DATA_DIRECTORY --out_path $PATH_TO_OUTFILE
 ```
 where the data directory is a directory of wav and their associated TextGrid files
 and the outfile is a csv file.
 
-##Options:
+## Options:
 `--tier_name`: specify the name of the tier from the textgrids. Default is 'words'
 
 `--legendre_order`: specify to what order you want to extract Legendre coefficients. Default is 3.
